@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="ZzMS58dB2wLQa1YeohO+2X7IS+w=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="3XtaXf66amPlZYFMVjZ+rd9Al3o=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="MXWOSOAP11Binding">
       <properties>
@@ -221,10 +221,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="MXWOSOAP11Port" contract="ServiceReference1.MXWOPortType" bindingType="basicHttpBinding" address="https://10.10.18.147/meaweb/services/MXWO" bindingConfiguration="MXWOSOAP11Binding">
+    <endpoint name="MXWOSOAP11Port" contract="ServiceReference1.MXWOPortType" bindingType="basicHttpBinding" address="https://10.10.18.45/meaweb/services/MXWO" bindingConfiguration="MXWOSOAP11Binding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>https://10.10.18.147/meaweb/services/MXWO</serializedValue>
+          <serializedValue>https://10.10.18.45/meaweb/services/MXWO</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

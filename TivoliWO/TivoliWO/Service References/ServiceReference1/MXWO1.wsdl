@@ -588,8 +588,8 @@
           <xsd:element minOccurs="0" name="AMS" type="mx:MXBooleanType" />
           <xsd:element minOccurs="0" name="LOS" type="mx:MXBooleanType" />
           <xsd:element minOccurs="0" name="LMS" type="mx:MXBooleanType" />
-          <xsd:element minOccurs="0" name="PMCHGSKDPRGSCNAME" type="mx:MXStringType" />
           <xsd:element minOccurs="0" name="REPAIRLOCFLAG" type="mx:MXBooleanType" />
+          <xsd:element minOccurs="0" name="PMCHGSKDPRGSCNAME" type="mx:MXStringType" />
           <xsd:element minOccurs="0" name="RBA_RC" type="mx:MXStringType" />
           <xsd:element minOccurs="0" name="RBA_RETRY" nillable="true" type="mx:MXLongType" />
         </xsd:sequence>
@@ -909,8 +909,8 @@
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="AMS" type="mx:MXBooleanQueryType" />
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="LOS" type="mx:MXBooleanQueryType" />
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="LMS" type="mx:MXBooleanQueryType" />
-                <xsd:element minOccurs="0" maxOccurs="unbounded" name="PMCHGSKDPRGSCNAME" type="mx:MXStringQueryType" />
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="REPAIRLOCFLAG" type="mx:MXBooleanQueryType" />
+                <xsd:element minOccurs="0" maxOccurs="unbounded" name="PMCHGSKDPRGSCNAME" type="mx:MXStringQueryType" />
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="RBA_RC" type="mx:MXStringQueryType" />
                 <xsd:element minOccurs="0" maxOccurs="unbounded" name="RBA_RETRY" nillable="true" type="mx:MXLongQueryType" />
               </xsd:sequence>
@@ -1754,7 +1754,7 @@
   </binding>
   <service name="MXWO">
     <port name="MXWOSOAP11Port" binding="mxws:MXWOSOAP11Binding">
-      <soap:address location="https://10.10.18.147/meaweb/services/MXWO" />
+      <soap:address location="https://10.10.18.45/meaweb/services/MXWO" />
     </port>
   </service>
 </definitions>

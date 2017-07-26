@@ -19,10 +19,10 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://helpdesktest.korektel.com/meaweb/wsdl/MXWO.wsdl " Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://helpdesk.korektel.com/meaweb/wsdl/MXWO?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="MXWO.wsdl" MetadataType="Wsdl" ID="05995aa9-bf5b-4db4-9fee-948895fbd865" SourceId="1" SourceUrl="https://helpdesktest.korektel.com/meaweb/wsdl/MXWO.wsdl" />
+    <MetadataFile FileName="MXWO1.wsdl" MetadataType="Wsdl" ID="82163d59-f13c-4a88-b253-960ad3dc905c" SourceId="1" SourceUrl="https://helpdesk.korektel.com/meaweb/wsdl/MXWO?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
